@@ -99,10 +99,46 @@ ol, ul{
     margin-right: 10px;
 }
 
+.crossred{
+    color: red;
+    border: 1px solid red;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 10px;
+}
+
 .listbutton.blue{
     background-color: rgb(0, 174, 255);
     padding: 5px;
     border-radius: 10px;
     border: 1px solid rgb(0, 174, 255);
+    color: white;
+}
+
+.violet{
+    background-color: darkviolet;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid darkviolet;
+    color: white;
+}
+
+.green{
+    background-color: green;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid green;
+    color: white;
+}
+
+.orange{
+    background-color: orange;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid orange;
     color: white;
 }
