@@ -64,12 +64,18 @@ header{
     color: gray;
 }
 
-.containerlist{
+.containermain{
     background-color: white;
     width: 75%;
     margin: auto;
     border-radius: 10px;
     margin-top: 5px;
+}
+
+.containerlist{
+    padding-left: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 ol, ul{
