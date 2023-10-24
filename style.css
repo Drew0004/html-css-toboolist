@@ -84,7 +84,7 @@ ol, ul{
 .listelements{
     font-size: 18px;
     font-weight: thin;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .checkgreen{
@@ -141,4 +141,8 @@ ol, ul{
     border-radius: 10px;
     border: 1px solid orange;
     color: white;
+}
+
+.ultopmargin{
+    margin-bottom: 30px;
 }
