@@ -1,0 +1,53 @@
+/* 
+    General 
+*/
+body{
+    background-color: rgb(220, 220, 220);
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: white;
+}
+
+.main-logo-align{
+    vertical-align: middle;
+    display: inline-block;
+
+}
+
+.h1font{
+    font-size: 50px;
+}
+
+.container{
+    background-color: white;
+    width: 75%;
+    height: 50px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.firstbutton{
+    background-color: rgb(0, 174, 255);
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 174, 255);
+    color: white;
+    margin-top: 11px;
+    margin-left: 70px;
+}
+
+.secondbutton{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: gray;
+}
