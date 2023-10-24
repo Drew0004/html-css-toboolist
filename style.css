@@ -4,13 +4,15 @@
 
 body{
     background-color: rgb(220, 220, 220);
-    font-family: 'Roboto', sans-serif;
+    
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(76, 76, 76);
 }
 
 /* 
@@ -29,6 +31,7 @@ header{
 
 .h1font{
     font-size: 50px;
+    color: black;
 }
 
 /* 
@@ -67,4 +70,29 @@ header{
     margin: auto;
     border-radius: 10px;
     margin-top: 5px;
+}
+
+ol, ul{
+    list-style: none;
+}
+
+.listtitles{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.listelements{
+    font-size: 18px;
+    font-weight: thin;
+}
+
+.checkgreen{
+    color: green;
+    border: 1px solid green;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
 }
